@@ -1,0 +1,21 @@
+
+.ant-layout{
+    color: #000;
+}
+.text-white{
+    color: #fff;
+}
+.all-center{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.ant-layout-header{
+    width: 100%;
+}
+.ant-layout-sider{
+    min-height:calc(100vh - 64px);
+}
+.color-orange{
+    fill:#f90
+}

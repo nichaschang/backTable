@@ -1,0 +1,19 @@
+.allcenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product_list{
+    width:50%;
+    border: 1px solid #ccc;
+}
+.justify-content-around{
+    justify-content: space-around;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+.margin-center{
+    margin: auto;
+}

@@ -1,0 +1,70 @@
+.input-upload-type{
+    margin: 30px 0;
+    width:80px;
+    min-width:80px;
+    height: 80px;
+    border: 1px dashed rgb(126, 118, 118);
+    overflow: hidden;
+    position: relative;
+}
+.input-upload-text{
+    position: absolute;
+    right: 8px;
+    letter-spacing: 0.1em;
+    color: rgb(126, 118, 118);
+    top: 25px;
+}
+.input-upload-list{
+    width:1000px;
+    height: 300px;
+    position: absolute;
+    right: 0;
+    outline: none;
+}
+.show-banner{
+    position: relative;
+    width: 800px;
+    height: 500px;
+    margin-bottom: 10px;
+}
+
+.txt{
+    max-width: 800px;
+    min-width: 800px;
+    width: 800px;
+    height: 500px;
+    position: absolute;
+    display: flex;
+    left:0;
+    top:0;
+    background-color: transparent;
+    word-wrap:break-word;
+    overflow: hidden;
+    & span{
+        font-size: 55px;
+        margin: 0;
+        color: #fff;
+       
+    }
+}
+
+.color-box{
+width:60px;
+height: 60px;
+margin: 0 5px;
+}
+.red{
+    background-color: #f00;
+}
+.green{
+    background-color: #090;
+}
+.blue{
+    background-color: #009;
+}
+.white{
+    background-color: #fff;
+}
+.black{
+    background-color: #000;
+}

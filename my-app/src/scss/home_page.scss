@@ -1,0 +1,181 @@
+.home-page-box{
+    color: #000;
+    text-align: center;
+    & h1{
+        font-weight: bold;
+        font-size: 33px;
+        letter-spacing: 0.3em;
+    }
+}
+.home-title-img{
+    margin-bottom: 45px;
+    height: 500px;
+    width: 100%;
+    background-image: url('/images/trek.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.home-title-img-second{
+    margin-bottom: 45px;
+    height: 500px;
+    width: 100%;
+    background-image: url('/images/lab.jpg');
+    // background-size:cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.home-page-content{
+    padding: 0 60px;
+    & p{
+        line-height: 40px;
+    }
+    
+}
+.flex{
+    display: flex;
+}
+.w-75{
+    width: 75%;
+}
+.home-page-img{
+    margin: 60px auto;
+    & img {
+        width: 33%;
+    }
+    & .home-page-img-list{
+        padding: 0 40px;
+    }
+    & .home-page-img-list img{
+        width: 100px;
+        height: 100px;
+    }
+}
+.m-t-60{
+    margin:60px 0 20px 0;
+}
+.m-t-30{
+    margin:20px 0 60px 0;
+    letter-spacing: .3em;
+    color: #999;
+}
+.home-page-create{
+    height: 550px;
+    overflow: hidden;
+    align-items: center;
+    background-color: #ddd;
+    & img{
+        width: 50%;
+    }
+    & .home-page-create-content{
+        padding: 60px;
+        & img{
+            height: 100%;
+        }
+        & h1{
+            margin: 30px 0;
+        }  
+        & h5{
+            margin: 30px 0;
+            letter-spacing: 0.5em;
+            color: #999;
+        } 
+        & p{
+            line-height: 30px;
+            text-align: left;
+        }
+    }
+}
+
+
+.page-list-card{
+    width: 20%;
+    overflow: hidden;
+    background-color: #ddd;
+    transition: all .5s ease-out;
+    
+    & .page-list-card-content{
+        padding: 30px;
+        & h3{
+        text-align: center;
+        font-size: 36px;
+        font-weight: bold;
+        }
+        & p{
+            line-height: 35px;
+        }
+    }
+    &:hover{
+        
+        background-color: rgba(0,0,0,0.5);
+    }
+
+    &:hover .page-list-card-img img{
+        transform: scale(1.1);
+        filter:grayscale(0%)
+    }
+    &:hover .page-list-card-content{
+        color: #fff;
+    }
+    &:hover .page-list-card-content h3{
+        color: #fff;
+    }
+    & .page-list-card-img{
+        overflow: hidden;
+        width: 100%;
+        height: 50%;
+    & img{
+        transition: all .5s ease-out;
+        width: 100%;
+        height: 100%;
+        filter:grayscale(90%)
+    }
+    }
+}
+.home-footer{
+    background-color: #000;
+    color: #fff;
+    position: relative;
+    padding:5rem 10% ;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    & img{
+        position: absolute;
+        width: 43%;
+    }
+    & img:nth-child(1){
+        position: absolute;
+        top:-10%;
+        right: -5%;
+    }
+    & img:nth-last-child(1){
+        position: absolute;
+        width: 40%;
+        bottom:-20%;
+        left: -10%;
+    }
+}
+.home-footer-content{
+z-index: 5;
+    text-align: center;
+    & h1,h3,h5{
+        color: #fff;
+        margin: 25px 0;
+        font-weight: bold;
+    }
+    & h1{
+        letter-spacing: 0.5em;
+    }
+    & h5{
+        color: #6dcff6;
+        letter-spacing: 0.3em;
+    }
+    & p{
+    text-align: center;
+    line-height: 35px;
+    padding: 0 290px;
+    }
+
+}
