@@ -1,8 +1,10 @@
 
 .upload-product{
     width: 90%;
-    padding: 20px;
+    padding: 35px 10px;
+    min-height: 700px;
     justify-content: space-around;
+    border: 2px dashed #999;
 }
 .show-product{
     position: relative;
@@ -47,7 +49,7 @@
     color: #fff;
 }
 .m-1{
-    margin: 20px 400px;
+    margin: 20px 350px;
 }
 .m-3{
     margin:150px 0 20px 0;

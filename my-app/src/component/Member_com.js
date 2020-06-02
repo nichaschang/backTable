@@ -5,28 +5,28 @@ function Member_com() {
     
 const columns = [
     {
-      title: 'Name',
+      title: '會員名稱',
       dataIndex: 'name',
       width: 300,
     },
     {
-      title: 'Age',
+      title: '年齡',
       dataIndex: 'age',
       width: 300,
     },
     {
-      title: 'Address',
+      title: '地址',
       dataIndex: 'address',
       width: 600,
     },
     {
-        title: 'Action',
+        title: '',
         dataIndex: '',
         key: 'x',
         render: () => <Button type="danger">Delete</Button>,
     },
     {
-        title: 'Action',
+        title: '',
         dataIndex: '',
         key: 'edit',
         render: () => <Button type="primary">Edit</Button>,

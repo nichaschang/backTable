@@ -1,0 +1,18 @@
+.alert-info{
+    position: absolute;
+    background-color: rgba(153, 148, 144,0.9);
+    left: -1800%;
+    top:-100%;
+    text-align: left;
+    padding: 15px;
+    font-size: 18px;
+    width: 600px;
+    height: 300px;
+    z-index: 9;
+    overflow-y: scroll;
+    box-shadow: 1px 1px 10px #999;
+}
+.order-info{
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+}

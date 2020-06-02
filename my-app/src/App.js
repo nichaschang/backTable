@@ -10,13 +10,23 @@ import OrderList_page from './pages/OrderList_page'
 import Member_page from './pages/Member_page'
 import {BrowserRouter as Router,Route,Switch} from 'react-router-dom'
 import 'antd/dist/antd.css'
-import { Layout  } from 'antd'
+import { Layout,BackTop } from 'antd'
 import './scss/header.scss'
 
 function App() {
 const [toggle,setToggle]=useState(false)
 const [toggleWidth,setToggleWidth]=useState(256)
   const { Header, Sider, Content } = Layout
+  const style = {
+    height: 40,
+    width: 40,
+    lineHeight: '40px',
+    borderRadius: 4,
+    backgroundColor: '#1088e9',
+    color: '#fff',
+    textAlign: 'center',
+    fontSize: 14,
+  }
   useEffect(()=>{
     setToggleWidth(toggle?256:74)
   },[toggle])
@@ -60,6 +70,9 @@ const [toggleWidth,setToggleWidth]=useState(256)
           
         </Switch>
     </Content>
+    <BackTop>
+      <div style={style}>向上</div>
+    </BackTop>
     </Layout>
     
     </Router>

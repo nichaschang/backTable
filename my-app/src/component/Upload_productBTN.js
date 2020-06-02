@@ -69,10 +69,10 @@ console.log('productItem',productItem)
 
       function getProductItem(){
         creatNewItem(fileList,productItem,showImg)
-        setFileList([])
-        setShowImg('')
-        setProductItem([])
-
+        // setFileList([])
+        // setShowImg('')
+        // setProductItem([])
+        window.location.reload()
       }
 
     let fileList_box=[]
@@ -85,6 +85,7 @@ console.log('productItem',productItem)
             <div className="flex-column">
             <img src={'images/'+v } className="show-img-s"/>
           <Button onClick={()=>setShowImg(fileList[i])} className={showImg==v?'defaultImg':''}>設為首圖</Button>
+          <Button type="danger">刪除</Button>
             </div>
         )
       })

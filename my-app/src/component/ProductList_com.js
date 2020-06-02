@@ -72,14 +72,14 @@ listData.map((v,i)=>{
     // console.log('maxItem',maxItem)
     if(i>=minItem && i<=maxItem){
         listDataBox.push(
-            <div className="flex product_list justify-content-around">
+            <div className="flex product_list justify-content-between">
             <img
             width={272}
             alt="logo"
             src={'/images/'+v.showImg }
           />
           <div className="allcenter">
-            <List.Item key={v.name}>
+            <List.Item key={v.name} style={{minWidth:'230px'}}>
                 <List.Item.Meta
                 title={<p>{v.name}</p>}
                 />
